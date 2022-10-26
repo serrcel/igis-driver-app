@@ -1,0 +1,20 @@
+D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\bin\Debug\netstandard2.0\IGIS Driver App.deps.json
+D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\bin\Debug\netstandard2.0\IGIS Driver App.dll
+D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\bin\Debug\netstandard2.0\IGIS Driver App.pdb
+D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\IGIS Driver App.csproj.AssemblyReference.cache
+D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\IGIS Driver App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\IGIS Driver App.AssemblyInfoInputs.cache
+D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\IGIS Driver App.AssemblyInfo.cs
+D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\IGIS Driver App.csproj.CoreCompileInputs.cache
+D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\IGIS Driver App.dll
+D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\refint\IGIS Driver App.dll
+D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\IGIS Driver App.pdb
+D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\ref\IGIS Driver App.dll

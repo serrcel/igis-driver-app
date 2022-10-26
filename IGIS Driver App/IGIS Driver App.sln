@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGIS Driver App.Android", "IGIS Driver App\IGIS Driver App.Android\IGIS Driver App.Android.csproj", "{4FCC318C-D1EB-4EAF-8673-44F2B107949C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGIS Driver App", "IGIS Driver App\IGIS Driver App\IGIS Driver App.csproj", "{29BC358C-7D65-47F3-953D-DEFF90B28E38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FCC318C-D1EB-4EAF-8673-44F2B107949C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FCC318C-D1EB-4EAF-8673-44F2B107949C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FCC318C-D1EB-4EAF-8673-44F2B107949C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4FCC318C-D1EB-4EAF-8673-44F2B107949C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FCC318C-D1EB-4EAF-8673-44F2B107949C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FCC318C-D1EB-4EAF-8673-44F2B107949C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{29BC358C-7D65-47F3-953D-DEFF90B28E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29BC358C-7D65-47F3-953D-DEFF90B28E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29BC358C-7D65-47F3-953D-DEFF90B28E38}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{29BC358C-7D65-47F3-953D-DEFF90B28E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29BC358C-7D65-47F3-953D-DEFF90B28E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29BC358C-7D65-47F3-953D-DEFF90B28E38}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA9A648D-3997-45D8-B5D2-AE8420822A7B}
+	EndGlobalSection
+EndGlobal
