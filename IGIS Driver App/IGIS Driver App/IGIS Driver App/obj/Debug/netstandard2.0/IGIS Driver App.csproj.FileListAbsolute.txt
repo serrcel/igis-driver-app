@@ -18,3 +18,23 @@ D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\I
 D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\refint\IGIS Driver App.dll
 D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\IGIS Driver App.pdb
 D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\ref\IGIS Driver App.dll
+E:\Labs\bacolavr\5simectr\Proj\repos\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\bin\Debug\netstandard2.0\IGIS Driver App.deps.json
+E:\Labs\bacolavr\5simectr\Proj\repos\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\bin\Debug\netstandard2.0\IGIS Driver App.dll
+E:\Labs\bacolavr\5simectr\Proj\repos\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\bin\Debug\netstandard2.0\ref\IGIS Driver App.dll
+E:\Labs\bacolavr\5simectr\Proj\repos\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\bin\Debug\netstandard2.0\IGIS Driver App.pdb
+E:\Labs\bacolavr\5simectr\Proj\repos\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\IGIS Driver App.csproj.AssemblyReference.cache
+E:\Labs\bacolavr\5simectr\Proj\repos\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\IGIS Driver App.GeneratedMSBuildEditorConfig.editorconfig
+E:\Labs\bacolavr\5simectr\Proj\repos\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Labs\bacolavr\5simectr\Proj\repos\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+E:\Labs\bacolavr\5simectr\Proj\repos\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+E:\Labs\bacolavr\5simectr\Proj\repos\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+E:\Labs\bacolavr\5simectr\Proj\repos\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+E:\Labs\bacolavr\5simectr\Proj\repos\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+E:\Labs\bacolavr\5simectr\Proj\repos\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+E:\Labs\bacolavr\5simectr\Proj\repos\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\IGIS Driver App.AssemblyInfoInputs.cache
+E:\Labs\bacolavr\5simectr\Proj\repos\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\IGIS Driver App.AssemblyInfo.cs
+E:\Labs\bacolavr\5simectr\Proj\repos\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\IGIS Driver App.csproj.CoreCompileInputs.cache
+E:\Labs\bacolavr\5simectr\Proj\repos\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Labs\bacolavr\5simectr\Proj\repos\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\IGIS Driver App.dll
+E:\Labs\bacolavr\5simectr\Proj\repos\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\ref\IGIS Driver App.dll
+E:\Labs\bacolavr\5simectr\Proj\repos\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App\obj\Debug\netstandard2.0\IGIS Driver App.pdb

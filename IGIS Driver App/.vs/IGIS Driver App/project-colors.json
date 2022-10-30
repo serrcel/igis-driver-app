@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "29bc358c-7d65-47f3-953d-deff90b28e38": {
+      "ProjectGuid": "29bc358c-7d65-47f3-953d-deff90b28e38",
+      "DisplayName": "IGIS Driver App",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
