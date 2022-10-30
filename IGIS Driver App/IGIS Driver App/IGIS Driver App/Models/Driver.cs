@@ -68,7 +68,8 @@ namespace IGIS_Driver_App.Models
         public Transport nearestTransport { get; private set; }
         public void GetData()
         {
-
+            var data = APIControll.GetRequest(0, code);
+            //next comes the data processing
         }
     }
 }
