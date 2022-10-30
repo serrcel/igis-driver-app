@@ -9,11 +9,11 @@ using System.IO;
 
 namespace IGIS_Driver_App.Models
 {
-    public class APIControll
+    public static class APIControll
     {
-        public HttpWebRequest request { get; private set; }
-        public string response { get; private set; }
-        public void GetRequest(string httpAdres)
+        public static HttpWebRequest request { get; private set; }
+        public static string response { get; private set; }
+        public static void GetRequest(string httpAdres)
         {
             request.Method = "GET";
             request = WebRequest.CreateHttp(httpAdres);
@@ -31,6 +31,7 @@ namespace IGIS_Driver_App.Models
             }
         }
     }
+
     public class Driver
     {
         
