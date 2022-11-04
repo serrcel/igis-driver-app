@@ -5,6 +5,7 @@ public class MonoPackageManager_Resources {
 		"IGIS Driver App.Android.dll",
 		"FormsViewGroup.dll",
 		"IGIS Driver App.dll",
+		"Newtonsoft.Json.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.Annotation.Experimental.dll",

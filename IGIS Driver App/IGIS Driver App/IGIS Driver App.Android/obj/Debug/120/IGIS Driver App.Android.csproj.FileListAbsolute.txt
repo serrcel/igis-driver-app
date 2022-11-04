@@ -634,5 +634,6 @@ D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\I
 D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App.Android\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
-D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App.Android\obj\Debug\120\res\drawable\trolleybus.svg
 D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App.Android\obj\Debug\120\res\drawable\klaka.png
+D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App.Android\obj\Debug\120\android\assets\Newtonsoft.Json.dll
+D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App.Android\obj\Debug\120\res\drawable\trolleybus.png

@@ -1,4 +1,4 @@
-﻿using IGIS_Driver_App.Services;
+﻿
 using IGIS_Driver_App.Views;
 using System;
 using Xamarin.Forms;
@@ -13,7 +13,6 @@ namespace IGIS_Driver_App
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
             MainPage = new AppShell();
         }
 
