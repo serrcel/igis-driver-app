@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Net;
 using System.Net.Http.Headers;
 using System.IO;
+using Newtonsoft.Json.Linq;
 
 namespace IGIS_Driver_App.Models
 {
@@ -14,8 +15,8 @@ namespace IGIS_Driver_App.Models
         public static readonly string driverRequest = "https://testapi.igis-transport.ru/driver-CS4aPcdcqoU2U5Xe/ts/";
         public static readonly string routeRequest = "https://testapi.igis-transport.ru/driver-CS4aPcdcqoU2U5Xe/schedule/";
         public static HttpWebRequest request { get; private set; }
-        public static string response { get; private set; }
-        public static string GetRequest(short requestType, string tsCode)
+        public static JObject response { get; private set; }
+        public static JObject GetRequest(short requestType, string tsCode)
         {
             request.Method = "GET";
             switch (requestType)
@@ -34,7 +35,7 @@ namespace IGIS_Driver_App.Models
                 HttpWebResponse httpWebResponse = (HttpWebResponse)request.GetResponse();
                 var stream = httpWebResponse.GetResponseStream();
                 if (stream != null)
-                    response = new StreamReader(stream).ReadToEnd();
+                    response = JObject.Parse(new StreamReader(stream).ReadToEnd());
                 return response;
             }
             catch (Exception)
@@ -49,13 +50,13 @@ namespace IGIS_Driver_App.Models
     public class Transport
     {
         public string code { get; private set; }
-        public float latitude { get; private set; }
-        public float longitude { get; private set; }
-        public short azimuth { get; private set; }
+        //public float latitude { get; private set; }
+        //public float longitude { get; private set; }
+        //public short azimuth { get; private set; }
         public string status { get; private set; }          //need to create Status class and change type of this fild to it!!!!!
         public short routeId { get; private set; }
-        public DateTime reysBegin { get; private set; }
-        public DateTime reysEnd { get; private set; }
+        //public DateTime reysBegin { get; private set; }
+        //public DateTime reysEnd { get; private set; }
         public int stopPreviousId { get; private set; }
         public int stopCurrentId { get; private set; }
         public int stopNextId { get; private set; }

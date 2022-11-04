@@ -5,7 +5,12 @@
       "ProjectGuid": "29bc358c-7d65-47f3-953d-deff90b28e38",
       "DisplayName": "IGIS Driver App",
       "ColorIndex": 0
+    },
+    "4fcc318c-d1eb-4eaf-8673-44f2b107949c": {
+      "ProjectGuid": "4fcc318c-d1eb-4eaf-8673-44f2b107949c",
+      "DisplayName": "IGIS Driver App.Android",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
