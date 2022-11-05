@@ -31,7 +31,7 @@ namespace IGIS_Driver_App.Models
 
         public void GetData()
         {
-            var data = APIControll.GetRequest(0, Code);
+            var data = API.GetRequest(0, Code);
             Route = new Route((short)data["route_id"], (int)data["stop_begin"], (int)data["stop_end"]);
             Status = (string)data["status"];
             //when DB will be - add request for Stop's (based on id's)
