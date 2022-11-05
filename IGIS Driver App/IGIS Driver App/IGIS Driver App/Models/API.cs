@@ -24,6 +24,7 @@ namespace IGIS_Driver_App.Models
             else
                 return "-1";
         }
+        //create parce method for generics
         public static JObject GetRequest(short requestType, string tsCode)
         {
             switch (requestType)
