@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Files\\Вуз\\Проекты\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.csproj": {}
+    "E:\\Labs\\bacolavr\\5simectr\\Proj\\repos\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.csproj": {}
   },
   "projects": {
-    "D:\\Files\\Вуз\\Проекты\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.csproj": {
+    "E:\\Labs\\bacolavr\\5simectr\\Proj\\repos\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Files\\Вуз\\Проекты\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.csproj",
+        "projectUniqueName": "E:\\Labs\\bacolavr\\5simectr\\Proj\\repos\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.csproj",
         "projectName": "IGIS Driver App",
-        "projectPath": "D:\\Files\\Вуз\\Проекты\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.csproj",
-        "packagesPath": "C:\\Users\\serrc\\.nuget\\packages\\",
-        "outputPath": "D:\\Files\\Вуз\\Проекты\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\obj\\",
+        "projectPath": "E:\\Labs\\bacolavr\\5simectr\\Proj\\repos\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.csproj",
+        "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
+        "outputPath": "E:\\Labs\\bacolavr\\5simectr\\Proj\\repos\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Programms\\Visual Studio SDK\\NuGetPackages"
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\serrc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -70,12 +69,11 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
         }
       }
     }

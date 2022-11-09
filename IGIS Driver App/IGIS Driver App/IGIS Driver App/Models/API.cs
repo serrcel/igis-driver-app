@@ -11,15 +11,22 @@ using System.Xml.Linq;
 
 namespace IGIS_Driver_App.Models
 {
-    public static class APIControll
+    public static class API
     {
         public static readonly string driverRequest = "https://testapi.igis-transport.ru/driver-CS4aPcdcqoU2U5Xe/ts/";
         public static readonly string routeRequest = "https://testapi.igis-transport.ru/driver-CS4aPcdcqoU2U5Xe/schedule/";
         public static HttpWebRequest Request { get; private set; }
         public static JObject Response { get; private set; }
+        public static string GetResponseData(string token)
+        {
+            if (Response[token] != null)
+                return (string)Response[token];
+            else
+                return "-1";
+        }
+        //create parce method for generics
         public static JObject GetRequest(short requestType, string tsCode)
         {
-            Request.Method = "GET";
             switch (requestType)
             {
                 case 0:
@@ -29,6 +36,7 @@ namespace IGIS_Driver_App.Models
                     Request = WebRequest.CreateHttp(routeRequest + tsCode);
                     break;
             }
+            Request.Method = "GET";
 
             try
             {
