@@ -8,6 +8,7 @@ using System.Net.Http.Headers;
 using System.IO;
 using Newtonsoft.Json.Linq;
 using System.Xml.Linq;
+using System.Diagnostics;
 
 namespace IGIS_Driver_App.Models
 {
@@ -17,13 +18,48 @@ namespace IGIS_Driver_App.Models
         public static readonly string routeRequest = "https://testapi.igis-transport.ru/driver-CS4aPcdcqoU2U5Xe/schedule/";
         public static HttpWebRequest Request { get; private set; }
         public static JObject Response { get; private set; }
-        public static string GetResponseData(string token)
+
+        public static string GetTimePrev()
         {
-            if (Response[token] != null)
-                return (string)Response[token];
-            else
-                return "-1";
+            try
+            {
+                var result = Response["data"]["nearest_ts"]["back"]["seconds"].ToString().Split(',', '.')[0];
+                int result_int = int.Parse(result);
+                result_int = result_int / 60;
+                return result_int.ToString();
+            }
+            catch
+            {
+                return "?";
+            }
         }
+        public static string GetTimeNext()
+        {
+            try
+            {
+                var result = Response["data"]["nearest_ts"]["forward"]["seconds"].ToString().Split(',', '.')[0];
+                int result_int = int.Parse(result);
+                result_int = result_int / 60;
+                return result_int.ToString();
+            }
+            catch
+            {
+                return "-1";
+            }
+        }
+        public static string GetNextStopId()
+        {
+            try
+            {
+                var result = Response["data"]["stop_next"];
+                return result.ToString();
+            }
+            catch
+            {
+                return "-1";
+            }
+        }
+        
         //create parce method for generics
         public static JObject GetRequest(short requestType, string tsCode)
         {
@@ -44,6 +80,7 @@ namespace IGIS_Driver_App.Models
                 var stream = httpWebResponse.GetResponseStream();
                 if (stream != null)
                     Response = JObject.Parse(new StreamReader(stream).ReadToEnd());
+                Debug.WriteLine(Response["data"]["stop_next"].ToString());
                 return Response;
             }
             catch (Exception)
