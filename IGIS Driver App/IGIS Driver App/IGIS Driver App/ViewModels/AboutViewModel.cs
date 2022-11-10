@@ -18,18 +18,19 @@ namespace IGIS_Driver_App.ViewModels
         private string _Stop;
         private string _NextTime;
         private string _PrevTime;
-        private object locker = new object();
 
         private string GetTimeNoun(string time)
         {
-            int n = int.Parse(time);
-            string s = " минут";
-            if (n % 10 == 1) s = " минута";
-            if (n % 10 >= 2 && n % 10 <= 4) s = " минуты";
-            return s;
+            int time_val = int.Parse(time);
+            var value = Math.Abs(time_val) % 100;
+            var num = value % 10;
+            if (value > 10 && value < 20) return time + " минут";
+            if (num > 1 && num < 5) return time + " минуты";
+            if (num == 1) return time + " минута";
+            return time + " минут";
         }
 
-        public string Stop 
+        public string Stop
         {
             get { return _Stop; }
             set { _Stop = value; OnPropertyChanged("Stop"); }
@@ -48,34 +49,20 @@ namespace IGIS_Driver_App.ViewModels
         public AboutViewModel()
         {
             transport = new Transport("Aboba202");
-            Thread updateThread = new Thread(UpdateInfo);
-            updateThread.Start();
+            GetData(transport);
+            Device.StartTimer(TimeSpan.FromSeconds(40), () =>
+            {
+                GetData(transport);
+                return true;
+            });
         }
         public void GetData(Transport ts)
         {
             API.GetRequest(0, ts.Code);
-            PrevTime = API.GetTimePrev() + GetTimeNoun(API.GetTimePrev());
-            NextTime = API.GetTimeNext() + GetTimeNoun(API.GetTimePrev());
+            Debug.WriteLine("Обновление данных с сервера" + DateTime.Now.Minute + DateTime.Now.Second);
+            PrevTime = GetTimeNoun(API.GetTimePrev());
+            NextTime = GetTimeNoun(API.GetTimeNext());
             Stop = "Следующая остановка: " + API.GetNextStopId();
-        }
-        private void UpdateInfo()
-        {
-            while (true)
-            {
-                try
-                {
-                    lock(locker) 
-                    {
-                        Debug.WriteLine("Получение данных с сервера: " + DateTime.Now);
-                        GetData(transport);
-                        Thread.Sleep(10000);
-                    }
-                }
-                catch 
-                {
-
-                }
-            }
         }
     }
 }

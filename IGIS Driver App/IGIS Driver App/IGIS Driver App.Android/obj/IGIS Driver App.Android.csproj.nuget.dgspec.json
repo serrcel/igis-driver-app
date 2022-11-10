@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Labs\\bacolavr\\5simectr\\Proj\\repos\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.Android\\IGIS Driver App.Android.csproj": {}
+    "D:\\Files\\Вуз\\Проекты\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.Android\\IGIS Driver App.Android.csproj": {}
   },
   "projects": {
-    "E:\\Labs\\bacolavr\\5simectr\\Proj\\repos\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.Android\\IGIS Driver App.Android.csproj": {
+    "D:\\Files\\Вуз\\Проекты\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.Android\\IGIS Driver App.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Labs\\bacolavr\\5simectr\\Proj\\repos\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.Android\\IGIS Driver App.Android.csproj",
+        "projectUniqueName": "D:\\Files\\Вуз\\Проекты\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.Android\\IGIS Driver App.Android.csproj",
         "projectName": "IGIS Driver App.Android",
-        "projectPath": "E:\\Labs\\bacolavr\\5simectr\\Proj\\repos\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.Android\\IGIS Driver App.Android.csproj",
-        "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
-        "outputPath": "E:\\Labs\\bacolavr\\5simectr\\Proj\\repos\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.Android\\obj\\",
+        "projectPath": "D:\\Files\\Вуз\\Проекты\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.Android\\IGIS Driver App.Android.csproj",
+        "packagesPath": "C:\\Users\\serrc\\.nuget\\packages\\",
+        "outputPath": "D:\\Files\\Вуз\\Проекты\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Programms\\Visual Studio SDK\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\serrc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid12.0": {
             "projectReferences": {
-              "E:\\Labs\\bacolavr\\5simectr\\Proj\\repos\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.csproj": {
-                "projectPath": "E:\\Labs\\bacolavr\\5simectr\\Proj\\repos\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.csproj"
+              "D:\\Files\\Вуз\\Проекты\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.csproj": {
+                "projectPath": "D:\\Files\\Вуз\\Проекты\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.csproj"
               }
             }
           }
@@ -54,20 +54,20 @@
         }
       }
     },
-    "E:\\Labs\\bacolavr\\5simectr\\Proj\\repos\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.csproj": {
+    "D:\\Files\\Вуз\\Проекты\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Labs\\bacolavr\\5simectr\\Proj\\repos\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.csproj",
+        "projectUniqueName": "D:\\Files\\Вуз\\Проекты\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.csproj",
         "projectName": "IGIS Driver App",
-        "projectPath": "E:\\Labs\\bacolavr\\5simectr\\Proj\\repos\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.csproj",
-        "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
-        "outputPath": "E:\\Labs\\bacolavr\\5simectr\\Proj\\repos\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\obj\\",
+        "projectPath": "D:\\Files\\Вуз\\Проекты\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.csproj",
+        "packagesPath": "C:\\Users\\serrc\\.nuget\\packages\\",
+        "outputPath": "D:\\Files\\Вуз\\Проекты\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Programms\\Visual Studio SDK\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\serrc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -76,6 +76,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -119,11 +120,12 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

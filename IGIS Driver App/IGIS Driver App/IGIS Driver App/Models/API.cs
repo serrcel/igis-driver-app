@@ -30,7 +30,7 @@ namespace IGIS_Driver_App.Models
             }
             catch
             {
-                return "?";
+                return "-1";
             }
         }
         public static string GetTimeNext()
