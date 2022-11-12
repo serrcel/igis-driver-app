@@ -3701,24 +3701,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\joepu\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\serrc\\.nuget\\packages\\": {},
+    "D:\\Programms\\Visual Studio SDK\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "V:\\bibagis\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.Android\\IGIS Driver App.Android.csproj",
+      "projectUniqueName": "D:\\Files\\Вуз\\Проекты\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.Android\\IGIS Driver App.Android.csproj",
       "projectName": "IGIS Driver App.Android",
-      "projectPath": "V:\\bibagis\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.Android\\IGIS Driver App.Android.csproj",
-      "packagesPath": "C:\\Users\\joepu\\.nuget\\packages\\",
-      "outputPath": "V:\\bibagis\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.Android\\obj\\",
+      "projectPath": "D:\\Files\\Вуз\\Проекты\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.Android\\IGIS Driver App.Android.csproj",
+      "packagesPath": "C:\\Users\\serrc\\.nuget\\packages\\",
+      "outputPath": "D:\\Files\\Вуз\\Проекты\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\Programms\\Visual Studio SDK\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\joepu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\serrc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3732,8 +3732,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "V:\\bibagis\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.csproj": {
-              "projectPath": "V:\\bibagis\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.csproj"
+            "D:\\Files\\Вуз\\Проекты\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.csproj": {
+              "projectPath": "D:\\Files\\Вуз\\Проекты\\igis-driver-app\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App\\IGIS Driver App.csproj"
             }
           }
         }

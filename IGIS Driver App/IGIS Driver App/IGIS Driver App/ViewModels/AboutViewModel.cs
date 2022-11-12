@@ -13,7 +13,6 @@ namespace IGIS_Driver_App.ViewModels
 {
     public class AboutViewModel : BaseViewModel
     {
-        private Route route;
         private Transport transport;
         private string _Stop;
         private string _NextTime;
@@ -29,7 +28,16 @@ namespace IGIS_Driver_App.ViewModels
             if (num == 1) return time + " минута";
             return time + " минут";
         }
-
+        private async void GetStopName(string stop_id)
+        {
+            int stopID = int.Parse(stop_id);
+            Stop stop = await App.InternalDB.GetStopAsync(stopID);
+            if (stop != null)
+            {
+                Stop = stop.ShortName;
+            }
+            
+        }
         public string Stop
         {
             get { return _Stop; }
@@ -48,7 +56,7 @@ namespace IGIS_Driver_App.ViewModels
 
         public AboutViewModel()
         {
-            transport = new Transport("Aboba202");
+            transport = App.currentTransport;
             GetData(transport);
             Device.StartTimer(TimeSpan.FromSeconds(40), () =>
             {
@@ -58,11 +66,11 @@ namespace IGIS_Driver_App.ViewModels
         }
         public void GetData(Transport ts)
         {
-            API.GetRequest(0, ts.Code);
+            API.GetRequest(0, ts.ts_code);
             Debug.WriteLine("Обновление данных с сервера" + DateTime.Now.Minute + DateTime.Now.Second);
             PrevTime = GetTimeNoun(API.GetTimePrev());
             NextTime = GetTimeNoun(API.GetTimeNext());
-            Stop = "Следующая остановка: " + API.GetNextStopId();
+            GetStopName(API.GetNextStopId());
         }
     }
 }
