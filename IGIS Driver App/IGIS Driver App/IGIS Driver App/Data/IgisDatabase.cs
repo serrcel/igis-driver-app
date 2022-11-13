@@ -49,6 +49,10 @@ namespace IGIS_Driver_App.Data
         {
             return database.Table<Stop>().Where(stop => stop.StopID == stop_id).FirstOrDefaultAsync();
         }
+        public Task<Route> GetRouteAsync(int route_id)
+        {
+            return database.Table<Route>().Where(route => route.ts_code == route_id).FirstOrDefaultAsync();
+        }
         public Task<Transport> GetOneTsAsync()
         {
             return database.Table<Transport>().FirstOrDefaultAsync();

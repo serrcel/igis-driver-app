@@ -30,7 +30,7 @@ namespace IGIS_Driver_App.Models
             }
             catch
             {
-                return "-1";
+                return "0";
             }
         }
         public static string GetTimeNext()
@@ -44,7 +44,7 @@ namespace IGIS_Driver_App.Models
             }
             catch
             {
-                return "-1";
+                return "0";
             }
         }
         public static string GetNextStopId()
@@ -56,10 +56,22 @@ namespace IGIS_Driver_App.Models
             }
             catch
             {
-                return "-1";
+                return "0";
             }
         }
-        
+        public static string GetRouteId()
+        {
+            try
+            {
+                var result = Response["data"]["route_id"];
+                return result.ToString();
+            }
+            catch
+            {
+                return "0";
+            }
+        }
+
         //create parce method for generics
         public static JObject GetRequest(short requestType, string tsCode)
         {

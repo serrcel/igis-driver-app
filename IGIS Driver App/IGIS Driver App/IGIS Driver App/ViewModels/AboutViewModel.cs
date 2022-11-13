@@ -17,6 +17,7 @@ namespace IGIS_Driver_App.ViewModels
         private string _Stop;
         private string _NextTime;
         private string _PrevTime;
+        private string _CurTS;
 
         private string GetTimeNoun(string time)
         {
@@ -38,6 +39,24 @@ namespace IGIS_Driver_App.ViewModels
             }
             
         }
+        private async void GetRoute(string route_id)
+        {
+            int routeID = int.Parse(route_id);
+            Route route =  await App.InternalDB.GetRouteAsync(routeID);
+            if (route != null)
+            {
+                if (route.RouteTransportType == "bus")
+                    CurTS = "Автобус " + route.RouteSignature;
+                else
+                    CurTS = "Троллейбус " + route.RouteSignature;
+            }
+
+        }
+        public string CurTS
+        {
+            get { return _CurTS; }
+            set { _CurTS = value; OnPropertyChanged("CurTS"); }
+        }
         public string Stop
         {
             get { return _Stop; }
@@ -58,7 +77,8 @@ namespace IGIS_Driver_App.ViewModels
         {
             transport = App.currentTransport;
             GetData(transport);
-            Device.StartTimer(TimeSpan.FromSeconds(40), () =>
+            DeviceDisplay.KeepScreenOn = true;
+            Device.StartTimer(TimeSpan.FromSeconds(30), () =>
             {
                 GetData(transport);
                 return true;
@@ -67,10 +87,11 @@ namespace IGIS_Driver_App.ViewModels
         public void GetData(Transport ts)
         {
             API.GetRequest(0, ts.ts_code);
-            Debug.WriteLine("Обновление данных с сервера" + DateTime.Now.Minute + DateTime.Now.Second);
+            Debug.WriteLine("Обновление данных с сервера" + DateTime.Now.Minute + " " + DateTime.Now.Second);
             PrevTime = GetTimeNoun(API.GetTimePrev());
             NextTime = GetTimeNoun(API.GetTimeNext());
             GetStopName(API.GetNextStopId());
+            GetRoute(API.GetRouteId());
         }
     }
 }

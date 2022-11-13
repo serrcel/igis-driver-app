@@ -9,7 +9,9 @@
              Shell.NavBarIsVisible="False">
     <ContentPage.Content>
         <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
-            <Entry x:Name="txtTSNumber" Placeholder="Введите номер тс в форме АА000/18 или 0000" PlaceholderColor="{StaticResource Primary}"></Entry>
+            
+            <Label Text="Введите номер транспортного средства в формате номер/регион либо в численном формате"></Label>
+            <Entry x:Name="txtTSNumber" Placeholder="Номер транспортного средства" PlaceholderColor="{StaticResource Primary}"></Entry>
             <Button VerticalOptions="Center" Text="Войти" Command="{Binding LoginCommand}" CommandParameter="{Binding Source={x:Reference txtTSNumber}, Path=Text}" CornerRadius="20"/>
         </StackLayout>
     </ContentPage.Content>

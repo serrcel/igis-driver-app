@@ -31,7 +31,6 @@ namespace IGIS_Driver_App
         public App()
         {
             InitializeComponent();
-
             MainPage = new AppShell();
         }
 

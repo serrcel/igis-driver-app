@@ -13,7 +13,7 @@ namespace IGIS_Driver_App
             InitializeComponent();
         }
 
-        private async void OnMenuItemClicked(object sender, EventArgs e)
+        private async void LogOut(object sender, EventArgs e)
         {
             await Shell.Current.GoToAsync("//LoginPage");
         }
