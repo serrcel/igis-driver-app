@@ -5,10 +5,14 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="IGIS_Driver_App.Views.LoginPage"
+             Shell.FlyoutBehavior="Disabled"
              Shell.NavBarIsVisible="False">
     <ContentPage.Content>
         <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
-            <Button VerticalOptions="Center" Text="Login" Command="{Binding LoginCommand}"/>
+            
+            <Label Text="Введите номер транспортного средства в формате номер/регион либо в численном формате"></Label>
+            <Entry x:Name="txtTSNumber" Placeholder="Номер транспортного средства" PlaceholderColor="{StaticResource Primary}"></Entry>
+            <Button VerticalOptions="Center" Text="Войти" Command="{Binding LoginCommand}" CommandParameter="{Binding Source={x:Reference txtTSNumber}, Path=Text}" CornerRadius="20"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

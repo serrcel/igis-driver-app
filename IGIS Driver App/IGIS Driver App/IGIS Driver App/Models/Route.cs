@@ -1,20 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
+using SQLite;
 namespace IGIS_Driver_App.Models
 {
+    [SQLite.Table("Route")]
     public class Route
     {
-        public Route(int rId, int begin, int end)
-        {
-            RouteId = rId;
-            StopBeginId = begin;
-            StopEndId = end;
-        }
-        public string DisplayedName { get; private set; }
-        public int RouteId { get; private set; }
-        public int StopBeginId { get; private set; }
-        public int StopEndId { get; private set; }
+        [PrimaryKey]
+        public int ts_code { get; set; }
+        public string RouteTransportType { get; set; }
+        public int RouteSignature { get; set; }
+        public int RouteNumber { get; set; }
+        public string FirstEndingStation { get; set; }
+        public string SecondEndingStation { get; set; }
     }
 }
