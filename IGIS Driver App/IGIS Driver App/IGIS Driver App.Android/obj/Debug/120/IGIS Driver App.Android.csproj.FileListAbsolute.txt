@@ -646,3 +646,4 @@ D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\I
 D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App.Android\obj\Debug\120\android\assets\System.Memory.dll
 D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App.Android\obj\Debug\120\android\assets\System.Runtime.CompilerServices.Unsafe.dll
 D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App.Android\obj\Debug\120\res\drawable\bus.png
+D:\Files\Вуз\Проекты\igis-driver-app\IGIS Driver App\IGIS Driver App\IGIS Driver App.Android\obj\Debug\120\res\drawable\gps_arrow.png
