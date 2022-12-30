@@ -15,6 +15,7 @@ namespace IGIS_Driver_App
 
         private async void LogOut(object sender, EventArgs e)
         {
+            Application.Current.MainPage = new AppShell();
             await Shell.Current.GoToAsync("//LoginPage");
         }
     }

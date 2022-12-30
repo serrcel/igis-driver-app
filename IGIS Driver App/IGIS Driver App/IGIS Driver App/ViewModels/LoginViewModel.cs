@@ -28,6 +28,7 @@ namespace IGIS_Driver_App.ViewModels
                 if (userGosnumber == Ts.gosnumber)
                 {
                     App.currentTransport = Ts;
+                    var page = new AboutViewModel();
                     await Shell.Current.GoToAsync($"//{nameof(AboutPage)}");
                 }
                     

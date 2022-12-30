@@ -42,6 +42,9 @@
             Y2="180"
             Stroke="Black" StrokeThickness="5" Grid.Row="2" HorizontalOptions="Center" StrokeDashArray="1,1"
             StrokeDashOffset="6"/>
+        <ContentView Grid.Row="2">
+            <Image x:Name="gps_arrow" Source="gps_arrow.png" VerticalOptions="Center" HeightRequest="64" />
+        </ContentView>
         <StackLayout Grid.Row="3" Margin="0, 0, 0, 40">
             <ContentView   Padding="0,0,0,0" VerticalOptions="FillAndExpand">
                 <Image x:Name="ImageTS2" Source="trolleybus.png" VerticalOptions="Center" HeightRequest="64" />
@@ -50,8 +53,13 @@
         </StackLayout>
 
         <StackLayout Grid.Row="4" HorizontalOptions="Center" Orientation="Horizontal">
-            <Button WidthRequest="150" CornerRadius="20" Text="Авария" ></Button>
-            <Button WidthRequest="150" CornerRadius="20" Text="Пробка"></Button>
+            <Button x:Name="Avaria"  WidthRequest="150" CornerRadius="20" Text="Авария" Command="{Binding SendMSG}" CommandParameter="{Binding Source={x:Reference Avaria}, Path=Text}"></Button>
+            <Button x:Name="Probka" WidthRequest="150" CornerRadius="20" Text="Пробка" Command="{Binding SendMSG}" CommandParameter="{Binding Source={x:Reference Probka}, Path=Text}"></Button>
+        </StackLayout>
+
+        <StackLayout Grid.Row="5" HorizontalOptions="Center" Orientation="Horizontal">
+            <Button x:Name="Med" WidthRequest="150" CornerRadius="20" Text="Скорая" Command="{Binding SendMSG}" CommandParameter="{Binding Source={x:Reference Med}, Path=Text}"></Button>
+            <Button x:Name="Disp" WidthRequest="150" CornerRadius="20" Text="Диспетчер" Command="{Binding SendMSG}" CommandParameter="{Binding Source={x:Reference Disp}, Path=Text}"></Button>
         </StackLayout>
 
 
