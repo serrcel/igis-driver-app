@@ -14,10 +14,18 @@ namespace IGIS_Driver_App.ViewModels
     public class AboutViewModel : BaseViewModel
     {
         private Transport transport;
+        private TelegramMessage telegramMessage;
+        public Command SendMSG { get; }
         private string _Stop;
         private string _NextTime;
         private string _PrevTime;
         private string _CurTS;
+
+        public void OnSendMsgClicked(object obj)
+        {
+            string message = obj.ToString();
+            telegramMessage.SendReport(message, CurTS, _Stop);
+        }
 
         private string GetTimeNoun(string time)
         {
@@ -75,23 +83,32 @@ namespace IGIS_Driver_App.ViewModels
 
         public AboutViewModel()
         {
+            telegramMessage = new TelegramMessage();
+            SendMSG = new Command(OnSendMsgClicked);
             transport = App.currentTransport;
             GetData(transport);
             DeviceDisplay.KeepScreenOn = true;
-            Device.StartTimer(TimeSpan.FromSeconds(30), () =>
+            Device.StartTimer(TimeSpan.FromSeconds(15), () =>
             {
                 GetData(transport);
                 return true;
             });
         }
-        public void GetData(Transport ts)
+        public async void GetData(Transport ts)
         {
-            API.GetRequest(0, ts.ts_code);
-            Debug.WriteLine("Обновление данных с сервера" + DateTime.Now.Minute + " " + DateTime.Now.Second);
-            PrevTime = GetTimeNoun(API.GetTimePrev());
-            NextTime = GetTimeNoun(API.GetTimeNext());
-            GetStopName(API.GetNextStopId());
-            GetRoute(API.GetRouteId());
+            try
+            {
+                await API.GetReq(0, ts.ts_code);
+                Debug.WriteLine("Обновление данных с сервера");
+                PrevTime = GetTimeNoun(API.GetTimePrev());
+                NextTime = GetTimeNoun(API.GetTimeNext());
+                GetStopName(API.GetNextStopId());
+                GetRoute(API.GetRouteId());
+            }
+            catch
+            {
+                Debug.WriteLine("Ошибка с апи");
+            }
         }
     }
 }

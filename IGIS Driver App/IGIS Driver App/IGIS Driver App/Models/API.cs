@@ -16,6 +16,7 @@ namespace IGIS_Driver_App.Models
     {
         public static readonly string driverRequest = "https://testapi.igis-transport.ru/driver-CS4aPcdcqoU2U5Xe/ts/";
         public static readonly string routeRequest = "https://testapi.igis-transport.ru/driver-CS4aPcdcqoU2U5Xe/schedule/";
+        static readonly HttpClient client = new HttpClient();
         public static HttpWebRequest Request { get; private set; }
         public static JObject Response { get; private set; }
 
@@ -72,7 +73,14 @@ namespace IGIS_Driver_App.Models
             }
         }
 
-        //create parce method for generics
+        public static async Task GetReq(short requestType, string tsCode)
+        {
+            HttpResponseMessage response = await client.GetAsync(driverRequest + tsCode);
+            response.EnsureSuccessStatusCode();
+            string responseBody = await response.Content.ReadAsStringAsync();
+            Debug.WriteLine(responseBody);
+            Response = JObject.Parse(responseBody);
+        }
         public static JObject GetRequest(short requestType, string tsCode)
         {
             switch (requestType)
